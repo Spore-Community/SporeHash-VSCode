@@ -4,14 +4,25 @@
 	"description": "Convert between names and FNV Hash IDs used in DBPF files for Spore, a 2008 video game from Maxis.",
 	"version": "0.0.1",
 	"publisher": "Spore-Community",
-	"author": "Kyle Nanakdewa",
+	"author": {
+		"name": "Kyle Nanakdewa",
+		"email": "spore@kylenanakdewa.com",
+		"url": "https://kylenanakdewa.com"
+	},
+	"icon": "SporeHash.png",
+	"galleryBanner": {
+		"color": "#241F59",
+		"theme": "dark"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Spore-Community/SporeHash-VSCode"
 	},
 	"bugs": {
-		"url": "https://github.com/Spore-Community/SporeHash-VSCode/issues"
+		"url": "https://github.com/Spore-Community/SporeHash-VSCode/issues",
+		"email": "spore@kylenanakdewa.com"
 	},
+	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {
 		"vscode": "^1.44.0"
 	},
